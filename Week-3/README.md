@@ -16,12 +16,12 @@ This is the most math-heavy week of the program. Don't rush it. If the forward p
 
 ## Deliverable Checklist
 
-- [ ] `NoiseScheduler` class with **linear** and **cosine** schedule support
-- [ ] Closed-form `q(x_t | x_0)` sampling using the reparameterization trick
-- [ ] Visualization script: one image noised at `t = 0, 100, 250, 500, 750, 999`
-- [ ] Unit tests verifying `x_T ≈ N(0, I)` (pure Gaussian noise)
-- [ ] Plot comparing linear vs cosine SNR curves
-- [ ] Code pushed to GitHub with updated README
+- [x] `NoiseScheduler` class with **linear** and **cosine** schedule support
+- [x] Closed-form `q(x_t | x_0)` sampling using the reparameterization trick
+- [x] Visualization script: one image noised at `t = 0, 100, 250, 500, 750, 999`
+- [x] Unit tests verifying `x_T ≈ N(0, I)` (pure Gaussian noise)
+- [x] Plot comparing linear vs cosine SNR curves
+- [x] Code pushed to GitHub with updated README
 
 ## Folder Structure
 
