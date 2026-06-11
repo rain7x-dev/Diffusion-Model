@@ -16,14 +16,14 @@ This is the **single most important week** of the program. If your DDPM works on
 
 ## Deliverable Checklist
 
-- [ ] Sinusoidal **timestep embeddings** integrated into UNet blocks
-- [ ] Training loop following **Algorithm 1** from DDPM paper
-- [ ] Sampling loop following **Algorithm 2** from DDPM paper
-- [ ] Recognizable samples generated on MNIST/Fashion-MNIST
-- [ ] Sample grid saved every N epochs (visual progress)
-- [ ] Training loss curve plotted
-- [ ] README updated with results gallery
-- [ ] **Present at mid-program demo on Sunday**
+- [x] Sinusoidal **timestep embeddings** integrated into UNet blocks
+- [x] Training loop following **Algorithm 1** from DDPM paper
+- [x] Sampling loop following **Algorithm 2** from DDPM paper
+- [x] Recognizable samples generated on MNIST/Fashion-MNIST
+- [x] Sample grid saved every N epochs (visual progress)
+- [x] Training loss curve plotted
+- [x] README updated with results gallery
+- [x] **Present at mid-program demo on Sunday**
 
 ## Folder Structure
 
