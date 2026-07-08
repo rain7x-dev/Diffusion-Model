@@ -1,0 +1,18 @@
+dataset: huggan/smithsonian_butterflies_subset
+img_size: 64
+channels: 3
+base: 96
+
+epochs: 150
+batch_size: 64
+lr: 0.0002
+warmup_steps: 100
+grad_clip: 1.0
+num_timesteps: 1000
+schedule: linear
+amp: false
+
+ema_decay: 0.995
+sample_every: 10
+checkpoint_every: 10
+wandb_project: butterfly-diffusion-v3
